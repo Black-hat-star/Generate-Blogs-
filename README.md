@@ -61,14 +61,20 @@ If you're using .env, install python-dotenv:
 pip install python-dotenv
 
 Method 2: Using Environment Variables (Terminal)
+
 # For Linux/macOS
 export GOOGLE_API_KEY=your_google_gemini_api_key
+
 export HUGGINGFACEHUB_API_TOKEN=your_huggingface_token
+
 :: For Windows CMD
+
 set GOOGLE_API_KEY=your_google_gemini_api_key
+
 set HUGGINGFACEHUB_API_TOKEN=your_huggingface_token
 
-▶️ Run the App
+▶️ Run the App:
+
 For Gemini version (faster):
 streamlit run app_gemini.py
 
